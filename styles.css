@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin:0; padding:0;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Themes */
+[data-theme='light'] { background:#ffffff; color:#000000; }
+[data-theme='dark'] { background:#121212; color:#ffffff; }
+
+header { text-align:center; padding:20px; }
+nav a { margin:0 10px; text-decoration:none; color:inherit; }
+
+button {
+  margin-top:15px;
+  padding:10px 15px;
+  cursor:pointer;
+}
+
+/* Animations */
+.fade-in { opacity:0; animation: fade 1.5s forwards; }
+.fade-in-delay { opacity:0; animation: fade 2s forwards; }
+.slide-up { opacity:0; transform:translateY(20px); animation: slideUp 1.5s forwards; }
+
+@keyframes fade {
+  to { opacity:1; }
+}
+
+@keyframes slideUp {
+  to { opacity:1; transform:translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav { display:flex; flex-direction:column; gap:10px; }
+}
