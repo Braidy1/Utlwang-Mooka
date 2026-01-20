@@ -1,0 +1,10 @@
+{
+  "profile": { "name": "Utlwang Mooka", "focus": ["Cloud","DevOps","Backend"] },
+  "skills": [
+    { "name": "Java", "weight": 3 },
+    { "name": "Azure", "weight": 4 },
+    { "name": "SQL", "weight": 3 }
+  ],
+  "projects": [{ "id": "rg-dashboard", "title": "Responsible Gaming Dashboard" }],
+  "certifications": ["AZ-900","AZ-104","AZ-204","AZ-400"]
+}

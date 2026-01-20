@@ -1,0 +1,5 @@
+body { background:#000; color:#ffd800; font-family: Arial, sans-serif; text-align:center; }
+#game { border:2px solid #ffd800; margin-top:10px; }
+#skip { margin-top:10px; padding:6px 12px; }
+#overlay { display:none; position:fixed; inset:0; background:#000; color:#ffd800; padding:20px; }
+#overlay.active { display:block; }
