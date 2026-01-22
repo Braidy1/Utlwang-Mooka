@@ -1,2 +1,2 @@
 # Utlwang-Mooka
-ASP.NET (.NET) website showcasing an event management system
+ASP.NET (.NET 8) website showcasing an event management system
