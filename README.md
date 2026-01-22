@@ -1,2 +1,2 @@
 # Utlwang-Mooka
-Portfolio for Utlwang Mooka
+ASP.NET (.NET) website showcasing an event management system
